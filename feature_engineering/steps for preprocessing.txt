@@ -1,0 +1,75 @@
+Feature engineering
+
+1)Study data
+	know the total column, total row
+	find columns
+	try to learn meaning of each column
+	try to find out numerical column
+	try to find out categorical column, (find which is ordinal , nominal column)
+
+
+
+2)Handling missing data
+finding null 	
+	find the total percentage of null in each column
+	find the total percentage of null in total cell
+	find all null column
+	using seaborn see the null value using seaborn heatmap 
+dropping null
+	drop column if it has less than 80 or 70 % of data
+	drop row if it has less than 80 or 70% of data  
+
+filling null 
+	for categorical data => mode
+	for numeric data
+		for normal distributed data => mean 
+		for skewed data             => median
+
+3)Handlein duplicat rows
+	remove using isDuplicate
+
+
+4) convert string number to  int ..
+
+
+5) Function transformation (log)
+	
+
+6)Handling outlier   (we remove row if it has ouler in one columnun)
+Detecting outlier
+	use boxplot (this is used)
+		if ut get points before and after box plot it is outler
+		
+	or distribution plot
+		if the cureedis skewed ro tail goes to long
+	Removing outlier  (though you remove it may have some outlier) which is not important to remove	
+	IQR 
+		remove outside lower fence q1-1.5(iqr) and upper fence q3+1.5(iqr)   (iqr = q3-q1
+        sd		
+		remove   outside range   mean-3sd   to mean +3sd
+		or using zscore= (x-mean)/6 remove z score outside range (-3 to 3)
+
+
+
+
+
+
+7)Encoding 
+	nominal category
+		for input oneHotEncoder
+		for output lableEncoder
+	ordinal category
+		input/output ordinaEncoder
+
+
+8) Featrue scaling it is last process
+	minmax
+		xnew = (x -xmin)/(xmax-xmin)   (min value as 0 and max value as 1)
+	        xnew is such than xnew min is 0 and   xmax = 1
+	standaraziatin 
+		xnew = (x-xmean)/sd_
+		scale such that mean is 0 and sd is 1 or say xnew is made such that xnew mean is 0 and sd is 1
+
+	you can check its histplot you will see clearly
+
+
