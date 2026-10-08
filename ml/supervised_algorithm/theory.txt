@@ -1,0 +1,22 @@
+supervised algorithm 
+
+    regression algorithm 
+         it predict continious value 
+            house price , gold price
+            age, height, weight
+
+    classification algorithm
+        binary classification 
+            it predict binary value 
+                disease prediction 
+                pass_fail
+
+        multi class classification 
+            it predict more than two class 
+                 finding gender 
+                 finding day (sunday,.....)
+
+in supervised algorithm
+    we provide both input as well as ouput
+    
+                
