@@ -1,0 +1,11 @@
+python   
+git and git hub
+numpy
+pandas
+matplotlib/seaborn
+backend using fastapi
+
+
+machine learning
+deep learning
+projects
