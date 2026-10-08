@@ -1,0 +1,7 @@
+install jupyter extension
+install spreadsheet viewer extension to view spreadsheet
+alt +up to move markdown shell
+shift+enter to run the shell
+alt+enter to make new  shell
+
+pip install openpyxl to work with xlsx
